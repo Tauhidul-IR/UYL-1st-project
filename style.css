@@ -255,3 +255,30 @@ h1{
     transition: 0.4s;
     
 }
+
+.video-section{
+    background-image: url(/images/videobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10px;
+}
+.video{
+    width: 40%;
+}
+.video-text{
+    width: 40%;
+}
+.v_text{}
+.v_text h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.v_text p{
+    font-weight: bold;
+}
